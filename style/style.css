@@ -10,3 +10,29 @@ body{
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
 }
+.btn{
+    padding:20px 24px;
+    background-color:rgb(255, 144, 14);
+    color:white;
+    font-size:20px;
+    font-weight:600;
+}
+a{
+    text-decoration:none;
+}
+.header{
+    height:1322vh;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:1.5rem;
+}
